@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appinitiatedemo" />
+            <option value="$PROJECT_DIR$/appinitiatedemo2" />
+            <option value="$PROJECT_DIR$/asmonitormemory" />
+            <option value="$PROJECT_DIR$/danlidemo" />
+            <option value="$PROJECT_DIR$/eventbusdemo" />
+            <option value="$PROJECT_DIR$/leakcanarydemo" />
+            <option value="$PROJECT_DIR$/mvprxjavaretrofitdemo" />
+            <option value="$PROJECT_DIR$/mvprxjavaretrofitdemo2" />
+            <option value="$PROJECT_DIR$/mvprxjavaretrofitdemo3" />
+            <option value="$PROJECT_DIR$/mvprxjavaretrofitdemo4" />
+            <option value="$PROJECT_DIR$/mycustommeasuredemo" />
+            <option value="$PROJECT_DIR$/mycustomondrawdemo" />
+            <option value="$PROJECT_DIR$/retrofit2firstdemo" />
+            <option value="$PROJECT_DIR$/rxjava2firstdemo" />
+            <option value="$PROJECT_DIR$/rxjava2seconddemo" />
+            <option value="$PROJECT_DIR$/testdialog" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

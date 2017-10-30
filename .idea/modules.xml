@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appinitiatedemo/appinitiatedemo.iml" filepath="$PROJECT_DIR$/appinitiatedemo/appinitiatedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appinitiatedemo2/appinitiatedemo2.iml" filepath="$PROJECT_DIR$/appinitiatedemo2/appinitiatedemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asmonitormemory/asmonitormemory.iml" filepath="$PROJECT_DIR$/asmonitormemory/asmonitormemory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/danlidemo/danlidemo.iml" filepath="$PROJECT_DIR$/danlidemo/danlidemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventbusdemo/eventbusdemo.iml" filepath="$PROJECT_DIR$/eventbusdemo/eventbusdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leakcanarydemo/leakcanarydemo.iml" filepath="$PROJECT_DIR$/leakcanarydemo/leakcanarydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvprxjavaretrofitdemo/mvprxjavaretrofitdemo.iml" filepath="$PROJECT_DIR$/mvprxjavaretrofitdemo/mvprxjavaretrofitdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvprxjavaretrofitdemo2/mvprxjavaretrofitdemo2.iml" filepath="$PROJECT_DIR$/mvprxjavaretrofitdemo2/mvprxjavaretrofitdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvprxjavaretrofitdemo3/mvprxjavaretrofitdemo3.iml" filepath="$PROJECT_DIR$/mvprxjavaretrofitdemo3/mvprxjavaretrofitdemo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvprxjavaretrofitdemo4/mvprxjavaretrofitdemo4.iml" filepath="$PROJECT_DIR$/mvprxjavaretrofitdemo4/mvprxjavaretrofitdemo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycustommeasuredemo/mycustommeasuredemo.iml" filepath="$PROJECT_DIR$/mycustommeasuredemo/mycustommeasuredemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycustomondrawdemo/mycustomondrawdemo.iml" filepath="$PROJECT_DIR$/mycustomondrawdemo/mycustomondrawdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit2firstdemo/retrofit2firstdemo.iml" filepath="$PROJECT_DIR$/retrofit2firstdemo/retrofit2firstdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava2firstdemo/rxjava2firstdemo.iml" filepath="$PROJECT_DIR$/rxjava2firstdemo/rxjava2firstdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxjava2seconddemo/rxjava2seconddemo.iml" filepath="$PROJECT_DIR$/rxjava2seconddemo/rxjava2seconddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testdialog/testdialog.iml" filepath="$PROJECT_DIR$/testdialog/testdialog.iml" />
+    </modules>
+  </component>
+</project>
