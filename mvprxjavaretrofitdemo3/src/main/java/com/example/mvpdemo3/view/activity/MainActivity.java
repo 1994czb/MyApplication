@@ -21,18 +21,19 @@ public class MainActivity extends AppCompatActivity implements IRegisterView {
         mRegisterPresenter = new RegisterPresenter(this);
     }
 
+    //"李宁","123456","13521546653","女"
     public void onClick(View view) {
-        mRegisterPresenter.register();
+        mRegisterPresenter.register("123456", "13521546653");
     }
 
     @Override
     public void registerSucced() {
-        Toast.makeText(MainActivity.this, "注册成功", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void registerFaild() {
-        Toast.makeText(MainActivity.this, "注册失败", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "登录失败", Toast.LENGTH_SHORT).show();
     }
 
     @Override

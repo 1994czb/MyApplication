@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/rxjava2firstdemo/rxjava2firstdemo.iml" filepath="$PROJECT_DIR$/rxjava2firstdemo/rxjava2firstdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava2seconddemo/rxjava2seconddemo.iml" filepath="$PROJECT_DIR$/rxjava2seconddemo/rxjava2seconddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/testdialog/testdialog.iml" filepath="$PROJECT_DIR$/testdialog/testdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhuanchangdemo/zhuanchangdemo.iml" filepath="$PROJECT_DIR$/zhuanchangdemo/zhuanchangdemo.iml" />
     </modules>
   </component>
 </project>

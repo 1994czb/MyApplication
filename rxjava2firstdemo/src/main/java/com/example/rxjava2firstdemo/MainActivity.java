@@ -81,10 +81,6 @@ public class MainActivity extends AppCompatActivity {
 //        observable.subscribe(observer);
 
 
-
-
-
-
         //// // TODO: 2017/9/27 默认情况下上游河下游都在主线程中 ，由于请求数据等操作在子线程中，请看下文
         Observable.create(new ObservableOnSubscribe<Integer>() {
             @Override
@@ -117,10 +113,5 @@ public class MainActivity extends AppCompatActivity {
                         Log.e(TAG, integer + "");
                     }
                 });
-
-
-
-
-
     }
 }

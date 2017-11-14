@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RegisterManager {
 
     private Retrofit mRetrofit;
-    private static final String DEFUALT_BASE_URL = "http://www.baidu.com";
+    private static final String DEFUALT_BASE_URL = "http://apis.juhe.cn/";
 
     //一种单例模式
     private static class SingleHolder {

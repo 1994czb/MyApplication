@@ -9,6 +9,6 @@ import retrofit2.http.GET;
  */
 //// // TODO: 2017/10/10 Retrofit的一个Api，用来拼接请求操作的接口
 public interface IRegisterApi {
-    @GET("http://www.baidu.com")
+    @GET("media/showMedia")
     Observable<ResponseBody> register();
 }

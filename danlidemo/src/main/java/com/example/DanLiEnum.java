@@ -19,8 +19,8 @@ public enum DanLiEnum {
 
     public DanLi getDanLi(){
         return danLi;
-    }
-    abstract String getstring();
+    }abstract String getstring();
+
 
 
 }

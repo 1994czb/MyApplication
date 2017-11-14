@@ -10,7 +10,7 @@ import com.example.mvpdemo2.R;
 import com.example.mvpdemo2.presenter.RegisterPresenter;
 import com.example.mvpdemo2.view.IRegisterView;
 
-public class MainActivity extends AppCompatActivity implements IRegisterView{
+public class MainActivity extends AppCompatActivity implements IRegisterView {
 
     private RegisterPresenter mRegisterPresenter;
 
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements IRegisterView{
 
 
     public void onClick(View view) {
-        mRegisterPresenter.register();
+        mRegisterPresenter.register(6);
     }
 
     @Override

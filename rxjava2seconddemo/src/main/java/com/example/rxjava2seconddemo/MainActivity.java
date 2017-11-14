@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         //demo1();
 
 
-
         //map操作符：一个简单的字段变换操作符（int String字段等）
         //map();
 
@@ -58,8 +57,6 @@ public class MainActivity extends AppCompatActivity {
         // flatMap并不保证事件的顺序(下游接收上游发送消息时，不一定按照上游发送的消息)
         //concatMap的结果是严格按照上游发送的顺序来发送的
         //flatmap_concatmap();
-
-
 
 
         //两个上游结合到一起，然后发送消息，下游接收消息
@@ -78,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
 
         //interval()方法只能接受long类型的消息，所以不用创建上游，直接由下游接收long类型的消息(可以理解为与计时器类似，用到的比较少)
         //interval();
-
 
 
         //RXjava2与okhttp结合请求数据
@@ -236,7 +232,7 @@ public class MainActivity extends AppCompatActivity {
         Observable.zip(observable1, observable2, new BiFunction<Integer, String, String>() {
             @Override
             public String apply(Integer integer, String s) throws Exception {
-                return integer+s;
+                return integer + s;
             }
         }).subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -254,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
                         } catch (InterruptedException e1) {
                             e1.printStackTrace();
                         }
-                        Log.e("TAG",value);
+                        Log.e("TAG", value);
                     }
 
                     @Override
@@ -294,6 +290,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }).observeOn(Schedulers.io());
 
+
         //创建第二个上游
         Observable<String> observable2 = Observable.create(new ObservableOnSubscribe<String>() {
             @Override
@@ -315,7 +312,7 @@ public class MainActivity extends AppCompatActivity {
         Observable.zip(observable1, observable2, new BiFunction<Integer, String, String>() {
             @Override
             public String apply(Integer integer, String s) throws Exception {
-                return integer+s;
+                return integer + s;
             }
         });
     }
@@ -342,7 +339,7 @@ public class MainActivity extends AppCompatActivity {
         }).subscribe(new Consumer<String>() {
             @Override
             public void accept(String s) throws Exception {
-                Log.e("TAG",s);
+                Log.e("TAG", s);
             }
         });
     }
@@ -364,12 +361,12 @@ public class MainActivity extends AppCompatActivity {
         }).map(new Function<Integer, String>() {
             @Override
             public String apply(Integer integer) throws Exception {
-                return integer+"转换字段";
+                return integer + "转换字段";
             }
-       }).subscribe(new Consumer<String>() {
+        }).subscribe(new Consumer<String>() {
             @Override
             public void accept(String s) throws Exception {
-                Log.e("TAG",s);
+                Log.e("TAG", s);
             }
         });
 // .subscribe(new Observer<String>() {

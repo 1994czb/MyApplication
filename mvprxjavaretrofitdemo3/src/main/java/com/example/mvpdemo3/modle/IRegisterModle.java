@@ -9,6 +9,6 @@ import okhttp3.ResponseBody;
 
 public interface IRegisterModle {
 
-    Observable<ResponseBody> register();
+    Observable<ResponseBody> register(String userPassword,String userPhone);
 
 }

@@ -8,5 +8,5 @@ import okhttp3.ResponseBody;
  */
 
 public interface IRegisterModle {
-    Observable<ResponseBody> register();
+    Observable<ResponseBody> register(int id);
 }

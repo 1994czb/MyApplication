@@ -6,7 +6,7 @@ package com.example.mvprxjavaretrofitdemo5.view;
 
 public interface IRegisterView extends IView{
 
-    void succee();
+    void succee(String gson);
     void faild();
 
 }

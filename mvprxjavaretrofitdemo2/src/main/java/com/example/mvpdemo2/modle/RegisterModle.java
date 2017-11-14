@@ -11,8 +11,9 @@ import okhttp3.ResponseBody;
  */
 
 public class RegisterModle implements IRegisterModle {
+
     @Override
-    public Observable<ResponseBody> register() {
-        return RetrofitManmge.getDefault().create(RegisterApi.class).register();
+    public Observable<ResponseBody> register(int id) {
+        return RetrofitManmge.getDefault().create(RegisterApi.class).register(id);
     }
 }

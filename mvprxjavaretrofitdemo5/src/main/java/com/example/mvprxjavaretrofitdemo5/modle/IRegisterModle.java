@@ -9,6 +9,7 @@ import okhttp3.ResponseBody;
 
 public interface IRegisterModle {
 
-    Observable<ResponseBody> register();
+    //括号里面写的是请求参数
+    Observable<ResponseBody> register(String lng,String lat,String key);
 
 }

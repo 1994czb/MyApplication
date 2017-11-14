@@ -11,8 +11,10 @@ import okhttp3.ResponseBody;
  */
 
 public class RegisterModle implements IRegisterModle {
+
+
     @Override
-    public Observable<ResponseBody> register() {
-        return RegisterManager.getDefault().create(RegisterApi.class).register();
+    public Observable<ResponseBody> register(String lng, String lat, String key) {
+        return RegisterManager.getDefault().create(RegisterApi.class).register(lng,lat,key);
     }
 }

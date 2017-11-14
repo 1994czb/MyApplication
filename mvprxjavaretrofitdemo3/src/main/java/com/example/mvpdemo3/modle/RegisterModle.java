@@ -13,7 +13,7 @@ import okhttp3.ResponseBody;
 public class RegisterModle implements IRegisterModle {
 
     @Override
-    public Observable<ResponseBody> register() {
-        return RetrofitManager.getDefualt().create(Api.class).register();
+    public Observable<ResponseBody> register(String userPassword, String userPhone) {
+        return RetrofitManager.getDefualt().create(Api.class).register(userPassword,userPhone);
     }
 }

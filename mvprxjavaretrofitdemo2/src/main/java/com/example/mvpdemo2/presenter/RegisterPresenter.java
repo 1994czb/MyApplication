@@ -27,8 +27,8 @@ public class RegisterPresenter extends IPresenter<IRegisterView> {
         mRegisterModle = new RegisterModle();
     }
 
-    public void register() {
-        Observable<ResponseBody> observable = mRegisterModle.register();
+    public void register(int id) {
+        Observable<ResponseBody> observable = mRegisterModle.register(id);
         observable.subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Consumer<ResponseBody>() {

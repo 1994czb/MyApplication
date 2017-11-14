@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/rxjava2firstdemo" />
             <option value="$PROJECT_DIR$/rxjava2seconddemo" />
             <option value="$PROJECT_DIR$/testdialog" />
+            <option value="$PROJECT_DIR$/zhuanchangdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

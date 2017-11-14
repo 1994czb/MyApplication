@@ -1,5 +1,7 @@
 package com.example.mvpdemo3.presenter;
 
+import android.util.Log;
+
 import com.example.mvpdemo3.modle.RegisterModle;
 import com.example.mvpdemo3.view.IRegisterView;
 
@@ -15,6 +17,7 @@ import okhttp3.ResponseBody;
 
 public class RegisterPresenter extends IRegisterPresenter<IRegisterView>{
 
+    private static final String TAG = "TAG";
     private RegisterModle mRegisterModle;
 
     public RegisterPresenter(IRegisterView view) {
@@ -27,14 +30,14 @@ public class RegisterPresenter extends IRegisterPresenter<IRegisterView>{
         mRegisterModle = new RegisterModle();
     }
 
-    public void register(){
-        Observable<ResponseBody> responseBodyObservable = mRegisterModle.register();
+    public void register(String userPassword, String userPhone){
+        Observable<ResponseBody> responseBodyObservable = mRegisterModle.register(userPassword,userPhone);
         responseBodyObservable.subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Consumer<ResponseBody>() {
                     @Override
                     public void accept(ResponseBody responseBody) throws Exception {
-
+                        Log.e(TAG, "accept: "+responseBody);
                         if (view!=null){
                             view.registerSucced();
                         }
@@ -42,6 +45,7 @@ public class RegisterPresenter extends IRegisterPresenter<IRegisterView>{
                 }, new Consumer<Throwable>() {
                     @Override
                     public void accept(Throwable throwable) throws Exception {
+                        Log.e(TAG, "accept: "+throwable );
                         if (view!=null){
                             view.registerFaild();
                         }

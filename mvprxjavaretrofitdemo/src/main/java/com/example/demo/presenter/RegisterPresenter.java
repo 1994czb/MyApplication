@@ -1,6 +1,6 @@
 package com.example.demo.presenter;
 
-import android.widget.Toast;
+import android.util.Log;
 
 import com.example.demo.modle.RegisterModle;
 import com.example.demo.view.IRegisterView;
@@ -17,6 +17,7 @@ import okhttp3.ResponseBody;
 
 public class RegisterPresenter extends IPresenter<IRegisterView> {
 
+    private static final String TAG = "TAG";
     private RegisterModle mRegisterModle;
 
     public RegisterPresenter(IRegisterView view) {
@@ -40,15 +41,15 @@ public class RegisterPresenter extends IPresenter<IRegisterView> {
                 .subscribe(new Consumer<ResponseBody>() {
                     @Override
                     public void accept(ResponseBody responseBody) throws Exception {
-
+                        Log.e(TAG, "accept: " + responseBody);
                         if (view != null) {
-//                            view.registerSucceed();
-                        Toast.makeText(view.context(),"",Toast.LENGTH_SHORT).show();
-                    }
+                            view.registerSucceed(responseBody.string());
+                        }
                     }
                 }, new Consumer<Throwable>() {
                     @Override
                     public void accept(Throwable throwable) throws Exception {
+                        Log.e(TAG, "accept: " + throwable);
                         if (view != null) {
                             view.registerFaid();
                         }

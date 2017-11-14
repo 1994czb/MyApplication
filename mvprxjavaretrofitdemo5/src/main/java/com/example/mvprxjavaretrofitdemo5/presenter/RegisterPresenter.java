@@ -29,8 +29,8 @@ public class RegisterPresenter extends IRegisterPresenter<IRegisterView> {
 
     }
 
-    public void register() {
-        Observable<ResponseBody> registerObservable = mRegisterModle.register();
+    public void register(String lng, String lat, String key) {
+        Observable<ResponseBody> registerObservable = mRegisterModle.register(lng,lat,key);
         registerObservable
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -39,7 +39,7 @@ public class RegisterPresenter extends IRegisterPresenter<IRegisterView> {
                     public void accept(ResponseBody responseBody) throws Exception {
 
                         if (view != null) {
-                            view.succee();
+                            view.succee(responseBody.string());
                         }
 
                     }
