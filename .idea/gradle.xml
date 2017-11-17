@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/appinitiatedemo2" />
             <option value="$PROJECT_DIR$/asmonitormemory" />
             <option value="$PROJECT_DIR$/danlidemo" />
+            <option value="$PROJECT_DIR$/designmode" />
             <option value="$PROJECT_DIR$/eventbusdemo" />
             <option value="$PROJECT_DIR$/leakcanarydemo" />
             <option value="$PROJECT_DIR$/mvprxjavaretrofitdemo" />
@@ -22,6 +23,7 @@
             <option value="$PROJECT_DIR$/mvprxjavaretrofitdemo5" />
             <option value="$PROJECT_DIR$/mycustommeasuredemo" />
             <option value="$PROJECT_DIR$/mycustomondrawdemo" />
+            <option value="$PROJECT_DIR$/myobserver" />
             <option value="$PROJECT_DIR$/retrofit2firstdemo" />
             <option value="$PROJECT_DIR$/rxjava2firstdemo" />
             <option value="$PROJECT_DIR$/rxjava2seconddemo" />

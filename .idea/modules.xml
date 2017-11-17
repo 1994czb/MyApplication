@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/appinitiatedemo2/appinitiatedemo2.iml" filepath="$PROJECT_DIR$/appinitiatedemo2/appinitiatedemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/asmonitormemory/asmonitormemory.iml" filepath="$PROJECT_DIR$/asmonitormemory/asmonitormemory.iml" />
       <module fileurl="file://$PROJECT_DIR$/danlidemo/danlidemo.iml" filepath="$PROJECT_DIR$/danlidemo/danlidemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designmode/designmode.iml" filepath="$PROJECT_DIR$/designmode/designmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventbusdemo/eventbusdemo.iml" filepath="$PROJECT_DIR$/eventbusdemo/eventbusdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/leakcanarydemo/leakcanarydemo.iml" filepath="$PROJECT_DIR$/leakcanarydemo/leakcanarydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvprxjavaretrofitdemo/mvprxjavaretrofitdemo.iml" filepath="$PROJECT_DIR$/mvprxjavaretrofitdemo/mvprxjavaretrofitdemo.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/mvprxjavaretrofitdemo5/mvprxjavaretrofitdemo5.iml" filepath="$PROJECT_DIR$/mvprxjavaretrofitdemo5/mvprxjavaretrofitdemo5.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycustommeasuredemo/mycustommeasuredemo.iml" filepath="$PROJECT_DIR$/mycustommeasuredemo/mycustommeasuredemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycustomondrawdemo/mycustomondrawdemo.iml" filepath="$PROJECT_DIR$/mycustomondrawdemo/mycustomondrawdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myobserver/myobserver.iml" filepath="$PROJECT_DIR$/myobserver/myobserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofit2firstdemo/retrofit2firstdemo.iml" filepath="$PROJECT_DIR$/retrofit2firstdemo/retrofit2firstdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava2firstdemo/rxjava2firstdemo.iml" filepath="$PROJECT_DIR$/rxjava2firstdemo/rxjava2firstdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava2seconddemo/rxjava2seconddemo.iml" filepath="$PROJECT_DIR$/rxjava2seconddemo/rxjava2seconddemo.iml" />
